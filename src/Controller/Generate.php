@@ -9,8 +9,8 @@ use GuzzleHttp\Exception\GuzzleException;
 use think\Controller;
 use think\Db;
 use think\exception\HttpException;
-use think\facade\Config;
-use think\facade\Env;
+use think\Config;
+use think\Env;
 use think\Loader;
 use think\Request;
 

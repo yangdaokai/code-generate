@@ -5,7 +5,7 @@ namespace Generate\Command;
 use think\console\Command;
 use think\console\Input;
 use think\console\Output;
-use think\facade\Env;
+use think\Env;
 
 class Generate extends Command
 {

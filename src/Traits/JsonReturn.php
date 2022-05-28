@@ -4,7 +4,7 @@ namespace Generate\Traits;
 
 use function json;
 use think\exception\HttpResponseException;
-use think\facade\Config;
+use think\Config;
 
 trait JsonReturn
 {

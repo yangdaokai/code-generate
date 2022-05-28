@@ -2,10 +2,10 @@
 
 use think\Console;
 use think\db\Query;
-use think\facade\Cache;
-use think\facade\Config;
-use think\facade\Env;
-use think\facade\Route;
+use think\Cache;
+use think\Config;
+use think\Env;
+use think\Route;
 use think\Loader;
 
 if (!class_exists('\\think\\Loader')) {

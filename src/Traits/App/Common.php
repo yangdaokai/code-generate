@@ -3,14 +3,14 @@
 namespace Generate\Traits\App;
 
 use Generate\Traits\JsonReturn;
-use think\facade\Cache;
-use think\facade\Request;
-use think\facade\Session;
+use think\Cache;
+use think\Request;
+use think\Session;
 use think\response\Json;
 
 trait Common
 {
-    use JsonReturn;
+//    use JsonReturn;
 
     /**
      * @return Json
